@@ -1,0 +1,186 @@
+# ENTSO-E cross-border zones
+# - zone_id: Zone area display name as defined by ENTSO-E
+#   neighbours: List of zone_id of neighbouring zones
+
+# Note: not represent geographical neighbours, but rather
+# the zones that are connected by cross-border lines (i.e. imports)
+
+- zone_id: "AL"
+  neighbours: ["GR", "ME", "RS", "XK"]
+
+- zone_id: "AM"
+  neighbours: ["GE"]
+
+- zone_id: "AT"
+  neighbours: ["CH", "CZ", "DE", "HU", "IT_NORTH", "SI"]
+
+- zone_id: "AZ"
+  neighbours: ["GE"]
+
+- zone_id: "BA"
+  neighbours: ["HR", "ME", "RS"]
+
+- zone_id: "BE"
+  neighbours: ["FR", "DE", "LU", "NL", "GB"]
+
+- zone_id: "BG"
+  neighbours: ["GR", "MK", "RO", "RS", "TR"]
+
+- zone_id: "BY"
+  neighbours: ["LT", "UA"]
+
+- zone_id: "CH"
+  neighbours: ["AT", "DE", "FR", "IT_NORTH"]
+
+- zone_id: "CY"
+  neighbours: []
+
+- zone_id: "CZ"
+  neighbours: ["AT", "DE", "PL", "SK"]
+
+- zone_id: "DE"
+  neighbours: ["AT", "BE", "CH", "CZ", "DK1", "DK2", "FR", "LU", "NL", "NO2", "PL", "SE4"]
+
+- zone_id: "DK1"
+  neighbours: ["DE", "DK2", "GB", "NL", "NO2", "SE3"]
+
+- zone_id: "DK2"
+  neighbours: ["DE", "DK1", "SE4"]
+
+- zone_id: "EE"
+  neighbours: ["FI", "LV", "RU"]
+
+- zone_id: "ES"
+  neighbours: ["FR", "PT"]
+
+- zone_id: "FI"
+  neighbours: ["EE", "NO4", "RU", "SE1", "SE3"]
+
+- zone_id: "FR"
+  neighbours: ["BE", "CH", "DE", "ES", "GB", "IT_NORTH"]
+
+- zone_id: "GB"
+  neighbours: ["BE", "DK1", "FR", "IE", "NIE", "NL", "NO2"]
+
+- zone_id: "GE"
+  neighbours: ["AM", "AZ", "TR", "RU"]
+
+- zone_id: "GR"
+  neighbours: ["AL", "BG", "IT_SOUTH", "MK", "TR"]
+
+- zone_id: "HR"
+  neighbours: ["BA", "HU", "RS", "SI"]
+
+- zone_id: "HU"
+  neighbours: ["AT", "HR", "RO", "RS", "SI", "SK", "UA"]
+
+- zone_id: "IE"
+  neighbours: ["GB", "NIE"]
+
+- zone_id: "IT_CALABRIA"
+  neighbours: ["IT_SICILY", "IT_SOUTH"]
+
+- zone_id: "IT_CNORTH"
+  neighbours: ["IT_CSOUTH", "IT_NORTH", "IT_SARDINIA"]
+
+- zone_id: "IT_CSOUTH"
+  neighbours: ["IT_CNORTH", "IT_SARDINIA", "IT_SOUTH", "ME"]
+
+- zone_id: "IT_NORTH"
+  neighbours: ["AT", "CH", "FR", "IT_CNORTH", "SI"]
+
+- zone_id: "IT_SARDINIA"
+  neighbours: ["IT_CNORTH", "IT_CSOUTH"]
+
+- zone_id: "IT_SICILY"
+  neighbours: ["IT_CALABRIA", "MT"]
+
+- zone_id: "IT_SOUTH"
+  neighbours: ["GR", "IT_CALABRIA", "IT_CSOUTH"]
+
+- zone_id: "LT"
+  neighbours: ["BY", "LV", "PL", "RU_KGD", "SE4"]
+
+- zone_id: "LU"
+  neighbours: ["BE", "DE"]
+
+- zone_id: "LV"
+  neighbours: ["EE", "LT", "RU"]
+
+- zone_id: "MD"
+  neighbours: ["RO", "UA"]
+
+- zone_id: "ME"
+  neighbours: ["AL", "BA", "IT_CSOUTH", "RS", "XK"]
+
+- zone_id: "MT"
+  neighbours: ["IT_SICILY"]
+
+- zone_id: "MK"
+  neighbours: ["BG", "GR", "RS", "XK"]
+
+- zone_id: "NIE"
+  neighbours: ["GB", "IE"]
+
+- zone_id: "NL"
+  neighbours: ["BE", "DE", "DK1", "GB", "NO2"]
+
+- zone_id: "NO1"
+  neighbours: ["NO2", "NO3", "NO5", "SE3"]
+
+- zone_id: "NO2"
+  neighbours: ["DE", "DK1", "GB", "NL", "NO1", "NO5"]
+
+- zone_id: "NO3"
+  neighbours: ["NO1", "NO4", "NO5", "SE2"]
+
+- zone_id: "NO4"
+  neighbours: ["FI", "NO3", "SE1", "SE2"]
+
+- zone_id: "NO5"
+  neighbours: ["NO1", "NO2", "NO3"]
+
+- zone_id: "PL"
+  neighbours: ["CZ", "DE", "LT", "SE4", "SK", "UA"]
+
+- zone_id: "PT"
+  neighbours: ["ES"]
+
+- zone_id: "RO"
+  neighbours: ["BG", "HU", "MD", "RS", "UA"]
+
+- zone_id: "RS"
+  neighbours: ["AL", "BA", "BG", "HR", "HU", "ME", "MK", "RO", "XK"]
+
+- zone_id: "RU"
+  neighbours: ["EE", "FI", "GE", "LV", "UA"]
+
+- zone_id: "RU_KGD"
+  neighbours: ["LT"]
+
+- zone_id: "SE1"
+  neighbours: ["NO4", "FI", "SE2"]
+
+- zone_id: "SE2"
+  neighbours: ["NO3", "NO4", "SE1", "SE3"]
+
+- zone_id: "SE3"
+  neighbours: ["DK1", "FI", "NO1", "SE2", "SE4"]
+
+- zone_id: "SE4"
+  neighbours: ["DE", "DK2", "LT", "PL", "SE3"]
+
+- zone_id: "SI"
+  neighbours: ["AT", "HR", "HU", "IT_NORTH"]
+
+- zone_id: "SK"
+  neighbours: ["CZ", "HU", "PL", "UA"]
+
+- zone_id: "TR"
+  neighbours: ["BG", "GE", "GR"]
+
+- zone_id: "UA"
+  neighbours: ["BY", "HU", "MD", "PL", "RO", "RU", "SK"]
+
+- zone_id: "XK"
+  neighbours: ["AL", "ME", "MK", "RS"]

@@ -1,0 +1,279 @@
+# Footprint factor structure:
+#   - factor_type: Water as FootprintType enum class
+#     production_type: "nuclear" as defined in ProductionType enum class
+#     scope: "Life-Cycle" | "Operational" as defined in ScopeType enum class
+#     value: 0.0
+#     unit: "l/kWh" as defined in Units enum class
+#     source: "IPCC"
+#     year: 2014
+#     source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Water
+  production_type: "Biomass"
+  scope: "Life-Cycle"
+  value: 222
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Biomass"
+  scope: "Operational"
+  value: 1.97
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Coal"
+  scope: "Life-Cycle"
+  value: 2.86
+  unit: "l/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Water
+  production_type: "Coal"
+  scope: "Operational"
+  value: 1.57
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Gas"
+  scope: "Life-Cycle"
+  value: 1.17
+  unit: "l/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Water
+  production_type: "Gas"
+  scope: "Operational"
+  value: 0.47
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Oil"
+  scope: "Life-Cycle"
+  value: 0.9
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Oil"
+  scope: "Operational"
+  value: 0.63
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Geothermal"
+  scope: "Life-Cycle"
+  value: 0.13
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Geothermal"
+  scope: "Operational"
+  value: 0.12
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Hydro River"
+  scope: "Life-Cycle"
+  value: 0.0386
+  unit: "l/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Water
+  production_type: "Hydro River"
+  scope: "Operational"
+  value: 0.0
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Hydro Reservoir"
+  scope: "Life-Cycle"
+  value: 32.81
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Hydro Reservoir"
+  scope: "Operational"
+  value: 32.81
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Marine"
+  scope: "Life-Cycle"
+  value: 0.0
+  unit: "l/kWh"
+  source: "None"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Marine"
+  scope: "Operational"
+  value: 0.0
+  unit: "l/kWh"
+  source: "None"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Nuclear"
+  scope: "Life-Cycle"
+  value: 2.26
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Nuclear"
+  scope: "Operational"
+  value: 2.04
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Other"
+  scope: "Life-Cycle"
+  value: 1.438
+  unit: "l/kWh"
+  source: "Average value from other Non-Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Other"
+  scope: "Operational"
+  value: 0.942
+  unit: "l/kWh"
+  source: "Average value from other Non-Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Other renewable"
+  scope: "Life-Cycle"
+  value: 31.986
+  unit: "l/kWh"
+  source: "Average value from other Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Other renewable"
+  scope: "Operational"
+  value: 4.375
+  unit: "l/kWh"
+  source: "Average value from other Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Solar"
+  scope: "Life-Cycle"
+  value: 0.579
+  unit: "l/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Water
+  production_type: "Solar"
+  scope: "Operational"
+  value: 0.1
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Waste"
+  scope: "Life-Cycle"
+  value: 0.0
+  unit: "l/kWh"
+  source: "None"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Waste"
+  scope: "Operational"
+  value: 0.0
+  unit: "l/kWh"
+  source: "None"
+  year: null
+  source_link: null
+
+- factor_type: Water
+  production_type: "Wind Offshore"
+  scope: "Life-Cycle"
+  value: 0.156
+  unit: "l/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Water
+  production_type: "Wind Offshore"
+  scope: "Operational"
+  value: 0.0
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"
+
+- factor_type: Water
+  production_type: "Wind Onshore"
+  scope: "Life-Cycle"
+  value: 0.175
+  unit: "l/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Water
+  production_type: "Wind Onshore"
+  scope: "Operational"
+  value: 0.0
+  unit: "l/kWh"
+  source: "Vanham"
+  year: 2019
+  source_link: "https://doi.org/10.1088/1748-9326/ab374a"

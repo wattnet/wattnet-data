@@ -1,0 +1,104 @@
+# ENTSO-E Zone Structure:
+#   - zone_id: Zone area display name as defined by ENTSO-E
+#     full_name: Full descriptive name of the zone
+#     eic_code: Energy Identification Code (EIC) of the zone
+#     country_code: ISO 3166-1 alpha-2 country code which the zone belongs
+#     country_name: Name of the country to which the zone belongs
+#     provider: [entsoe | elexon | ...] - The data provider for this zone
+- zone_id: "AT"
+  full_name: "Austria"
+  eic_code: "10YAT-APG------L"
+  country_code: "AT"
+  country_name: "Austria"
+  provider: "entsoe"
+
+- zone_id: "CH"
+  full_name: "Switzerland"
+  eic_code: "10YCH-SWISSGRIDZ"
+  country_code: "CH"
+  country_name: "Switzerland"
+  provider: "entsoe"
+
+- zone_id: "FR"
+  full_name: "France"
+  eic_code: "10YFR-RTE------C"
+  country_code: "FR"
+  country_name: "France"
+  provider: "entsoe"
+
+- zone_id: "IT_CALABRIA"
+  full_name: "Italy - Calabria"
+  eic_code: "10Y1001C--00096J"
+  country_code: "IT"
+  country_name: "Italy"
+  provider: "entsoe"
+
+- zone_id: "IT_CNORTH"
+  full_name: "Italy - Centre North"
+  eic_code: "10Y1001A1001A70O"
+  country_code: "IT"
+  country_name: "Italy"
+  provider: "entsoe"
+
+- zone_id: "IT_CSOUTH"
+  full_name: "Italy - Centre South"
+  eic_code: "10Y1001A1001A71M"
+  country_code: "IT"
+  country_name: "Italy"
+  provider: "entsoe"
+
+- zone_id: "IT_NORTH"
+  full_name: "Italy - North"
+  eic_code: "10Y1001A1001A73I"
+  country_code: "IT"
+  country_name: "Italy"
+  provider: "entsoe"
+
+- zone_id: "IT_SARDINIA"
+  full_name: "Italy - Sardinia"
+  eic_code: "10Y1001A1001A74G"
+  country_code: "IT"
+  country_name: "Italy"
+  provider: "entsoe"
+
+- zone_id: "IT_SICILY"
+  full_name: "Italy - Sicily"
+  eic_code: "10Y1001A1001A75E"
+  country_code: "IT"
+  country_name: "Italy"
+  provider: "entsoe"
+
+- zone_id: "IT_SOUTH"
+  full_name: "Italy - South"
+  eic_code: "10Y1001A1001A788"
+  country_code: "IT"
+  country_name: "Italy"
+  provider: "entsoe"
+
+- zone_id: "GR"
+  full_name: "Greece"
+  eic_code: "10YGR-HTSO-----Y"
+  country_code: "GR"
+  country_name: "Greece"
+  provider: "entsoe"
+
+- zone_id: "ME"
+  full_name: "Montenegro"
+  eic_code: "10YCS-CG-TSO---S"
+  country_code: "ME"
+  country_name: "Montenegro"
+  provider: "entsoe"
+
+- zone_id: "MT"
+  full_name: "Malta"
+  eic_code: "10Y1001A1001A93C"
+  country_code: "MT"
+  country_name: "Malta"
+  provider: "entsoe"
+
+- zone_id: "SI"
+  full_name: "Slovenia"
+  eic_code: "10YSI-ELES-----O"
+  country_code: "SI"
+  country_name: "Slovenia"
+  provider: "entsoe"

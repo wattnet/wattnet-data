@@ -1,0 +1,48 @@
+# ENTSO-E cross-border zones
+# - zone_id: Zone area display name as defined by ENTSO-E
+#   neighbours: List of zone_id of neighbouring zones
+
+# Note: not represent geographical neighbours, but rather
+# the zones that are connected by cross-border lines (i.e. imports)
+
+- zone_id: "AT"
+  neighbours: ["CH", "IT_NORTH", "SI"]
+
+- zone_id: "CH"
+  neighbours: ["AT", "FR", "IT_NORTH"]
+
+- zone_id: "FR"
+  neighbours: ["CH", "IT_NORTH"]
+
+- zone_id: "GR"
+  neighbours: ["IT_SOUTH"]
+
+- zone_id: "IT_CALABRIA"
+  neighbours: ["IT_SICILY", "IT_SOUTH"]
+
+- zone_id: "IT_CNORTH"
+  neighbours: ["IT_CSOUTH", "IT_NORTH", "IT_SARDINIA"]
+
+- zone_id: "IT_CSOUTH"
+  neighbours: ["IT_CNORTH", "IT_SARDINIA", "IT_SOUTH", "ME"]
+
+- zone_id: "IT_NORTH"
+  neighbours: ["AT", "CH", "FR", "IT_CNORTH", "SI"]
+
+- zone_id: "IT_SARDINIA"
+  neighbours: ["IT_CNORTH", "IT_CSOUTH"]
+
+- zone_id: "IT_SICILY"
+  neighbours: ["IT_CALABRIA", "MT"]
+
+- zone_id: "IT_SOUTH"
+  neighbours: ["GR", "IT_CALABRIA", "IT_CSOUTH"]
+
+- zone_id: "ME"
+  neighbours: ["IT_CSOUTH"]
+
+- zone_id: "MT"
+  neighbours: ["IT_SICILY"]
+
+- zone_id: "SI"
+  neighbours: ["AT", "IT_NORTH"]

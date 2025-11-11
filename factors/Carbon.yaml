@@ -1,0 +1,279 @@
+# Footprint factor structure:
+#   - factor_type: Carbon as FootprintType enum class
+#     production_type: "nuclear" as defined in ProductionType enum class
+#     scope: "Life-Cycle" | "Operational" as defined in ScopeType enum class
+#     value: 0.0
+#     unit: "gCO2/kWh" as defined in Units enum class
+#     source: "IPCC"
+#     year: 2014
+#     source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Biomass"
+  scope: "Life-Cycle"
+  value: 230
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Biomass"
+  scope: "Operational"
+  value: 1030
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2006
+  source_link: "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_2_Ch2_Stationary_Combustion.pdf"
+
+- factor_type: Carbon
+  production_type: "Coal"
+  scope: "Life-Cycle"
+  value: 936
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Coal"
+  scope: "Operational"
+  value: 760
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Gas"
+  scope: "Life-Cycle"
+  value: 434
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Gas"
+  scope: "Operational"
+  value: 370
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Oil"
+  scope: "Life-Cycle"
+  value: 778
+  unit: "gCO2/kWh"
+  source: "Gagnon"
+  year: 2002
+  source_link: "https://doi.org/10.1016/S0301-4215(02)00088-5"
+
+- factor_type: Carbon
+  production_type: "Oil"
+  scope: "Operational"
+  value: 600
+  unit: "gCO2/kWh"
+  source: "RedElectrica"
+  year: 2021
+  source_link: "https://api.esios.ree.es/documents/591/download?locale=es"
+
+- factor_type: Carbon
+  production_type: "Geothermal"
+  scope: "Life-Cycle"
+  value: 38
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Geothermal"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Hydro River"
+  scope: "Life-Cycle"
+  value: 10.7
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Hydro River"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Hydro Reservoir"
+  scope: "Life-Cycle"
+  value: 10.7
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Hydro Reservoir"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Marine"
+  scope: "Life-Cycle"
+  value: 17
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Marine"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Nuclear"
+  scope: "Life-Cycle"
+  value: 5.13
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Nuclear"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Other"
+  scope: "Life-Cycle"
+  value: 546.62
+  unit: "gCO2/kWh"
+  source: "Average value from other Non-Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Carbon
+  production_type: "Other"
+  scope: "Operational"
+  value: 394
+  unit: "gCO2/kWh"
+  source: "Average value from other Non-Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Carbon
+  production_type: "Other renewable"
+  scope: "Life-Cycle"
+  value: 46.24
+  unit: "gCO2/kWh"
+  source: "Average value from other Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Carbon
+  production_type: "Other renewable"
+  scope: "Operational"
+  value: 128.75
+  unit: "gCO2/kWh"
+  source: "Average value from other Renewable sources"
+  year: null
+  source_link: null
+
+- factor_type: Carbon
+  production_type: "Solar"
+  scope: "Life-Cycle"
+  value: 36.95
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Solar"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Waste"
+  scope: "Life-Cycle"
+  value: 580
+  unit: "gCO2/kWh"
+  source: "zerowasteeurope.eu"
+  year: 2019
+  source_link: "https://zerowasteeurope.eu/wp-content/uploads/edd/2019/09/ZWE_Policy-briefing_The-impact-of-Waste-to-Energy-incineration-on-Climate.pdf"
+
+- factor_type: Carbon
+  production_type: "Waste"
+  scope: "Operational"
+  value: 240
+  unit: "gCO2/kWh"
+  source: "RedElectrica"
+  year: 2021
+  source_link: "https://api.esios.ree.es/documents/591/download?locale=es"
+
+- factor_type: Carbon
+  production_type: "Wind Offshore"
+  scope: "Life-Cycle"
+  value: 14.2
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Wind Offshore"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
+
+- factor_type: Carbon
+  production_type: "Wind Onshore"
+  scope: "Life-Cycle"
+  value: 12.4
+  unit: "gCO2/kWh"
+  source: "UNECE"
+  year: 2022
+  source_link: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL%20March%202022.pdf"
+
+- factor_type: Carbon
+  production_type: "Wind Onshore"
+  scope: "Operational"
+  value: 0.0
+  unit: "gCO2/kWh"
+  source: "IPCC"
+  year: 2014
+  source_link: "https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf#page=7"
