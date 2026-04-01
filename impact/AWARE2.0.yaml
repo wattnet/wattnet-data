@@ -1,0 +1,324 @@
+# AWARE2.0 factor structure:
+#   - zone_id: Zone area display name as defined by ENTSO-E (similar to ISO 3166-1 alpha-2 country codes)
+#     full_name: Full descriptive name of the zone
+#     annual_factor: Annual AWARE2.0 factor for the zone (0-100) as defined by the AWARE2.0 dataset
+#     monthly_factors: List of monthly AWARE2.0 factors for the zone (0-100) as defined by the AWARE2.0 dataset
+
+- zone_id: "AL"
+  full_name: "Albania"
+  annual_factor: 48.5
+  monthly_factors: [0.516, 0.479, 0.485, 0.69, 2.04, 43.5, 75.6, 75.6, 5.19, 1.75, 0.536, 0.381]
+
+- zone_id: "AM"
+  full_name: "Armenia"
+  annual_factor: 80.4
+  monthly_factors: [5.38, 4.85, 2.84, 4.34, 46.4, 98.2, 100, 100, 14.1, 6.46, 5.22, 5.24]
+
+- zone_id: "AT"
+  full_name: "Austria"
+  annual_factor: 2.08
+  monthly_factors: [1.61, 1.59, 1.27, 1.25, 1.39, 1.7, 1.95, 2.58, 3.46, 3.35, 2.81, 1.67]
+
+- zone_id: "AZ"
+  full_name: "Azerbaijan"
+  annual_factor: 82.8
+  monthly_factors: [4.68, 4.16, 3.23, 8.31, 46.2, 96.4, 100, 100, 34.9, 14.9, 6.15, 4.73]
+
+- zone_id: "BA"
+  full_name: "Bosnia and Herzegovina"
+  annual_factor: 2.31
+  monthly_factors: [1.42, 1.42, 1.13, 1.11, 1.32, 1.98, 2.81, 3.34, 3.02, 2.88, 2.44, 1.46]
+
+- zone_id: "BE"
+  full_name: "Belgium"
+  annual_factor: 3.56
+  monthly_factors: [0.595, 0.704, 0.723, 1.03, 1.28, 1.72, 3.1, 7.14, 11.8, 11.8, 1.43, 0.838]
+
+- zone_id: "BG"
+  full_name: "Bulgaria"
+  annual_factor: 40.4
+  monthly_factors: [1.48, 1.39, 1.24, 1.44, 3.38, 12.3, 86.5, 85.6, 30.2, 6.07, 3.41, 1.63]
+
+- zone_id: "BY"
+  full_name: "Belarus"
+  annual_factor: 3.36
+  monthly_factors: [2.96, 2.82, 2.35, 2.34, 2.42, 3.09, 3.41, 4.01, 4.73, 4.58, 4.05, 3.35]
+
+- zone_id: "CH"
+  full_name: "Switzerland"
+  annual_factor: 1.54
+  monthly_factors: [0.611, 0.723, 0.675, 0.857, 0.917, 1.03, 1.82, 2.75, 2.97, 2.55, 1.23, 0.89]
+
+- zone_id: "CY"
+  full_name: "Cyprus"
+  annual_factor: 93.9
+  monthly_factors: [0.877, 1.31, 5.88, 88.4, 100, 100, 100, 100, 100, 100, 50.9, 1.17]
+
+- zone_id: "CZ"
+  full_name: "Czech Republic"
+  annual_factor: 3.15
+  monthly_factors: [11.7, 1.64, 1.34, 1.49, 1.95, 2.43, 3.26, 4.59, 6.57, 6.05, 3.95, 2.39]
+
+- zone_id: "DE"
+  full_name: "Germany"
+  annual_factor: 2.31
+  monthly_factors: [0.976, 1.04, 0.913, 1.11, 1.35, 1.62, 2.44, 3.82, 5.04, 3.99, 2.15, 1.4]
+
+- zone_id: "DK1"
+  full_name: "Denmark - West"
+  annual_factor: 2.227
+  monthly_factors:
+      [0.653, 0.729, 0.683, 0.939, 1.125, 1.55, 2.401, 4.328, 3.822, 2.277, 1.077, 0.776]
+
+- zone_id: "DK2"
+  full_name: "Denmark - East"
+  annual_factor: 2.651
+  monthly_factors:
+      [1.167, 1.218, 1.088, 1.346, 1.607, 2.217, 3.225, 4.948, 5.44, 4.316, 2.177, 1.46]
+
+- zone_id: "EE"
+  full_name: "Estonia"
+  annual_factor: 1.88
+  monthly_factors: [1.39, 1.56, 1.11, 0.91, 1.31, 1.61, 1.93, 2.6, 3.57, 2.76, 1.96, 1.69]
+
+- zone_id: "ES"
+  full_name: "Spain"
+  annual_factor: 73.5
+  monthly_factors: [9.36, 10.2, 15.4, 23.7, 56.1, 76.4, 81.6, 82.8, 85.8, 57.3, 32, 15.9]
+
+- zone_id: "FI"
+  full_name: "Finland"
+  annual_factor: 2.16
+  monthly_factors: [1.77, 2.06, 1.46, 0.974, 1.33, 1.69, 2.32, 3.5, 5.03, 2.48, 1.79, 1.52]
+
+- zone_id: "FR"
+  full_name: "France"
+  annual_factor: 13
+  monthly_factors: [0.489, 0.567, 0.557, 0.747, 0.927, 1.11, 1.77, 2.82, 3.42, 2.86, 1.29, 0.74]
+
+- zone_id: "GB"
+- full_name: "Great Britain"
+  annual_factor: 1.514
+  monthly_factors:
+      [0.436, 0.527, 0.56, 0.738, 0.956, 1.445, 2.222, 3.251, 4.027, 2.221, 0.778, 0.517]
+
+- zone_id: "GE"
+  full_name: "Georgia"
+  annual_factor: 60.3
+  monthly_factors: [2.85, 2.75, 1.84, 2.7, 29.1, 83.4, 89.7, 89.2, 7.86, 3.43, 3.07, 2.99]
+
+- zone_id: "GR"
+  full_name: "Greece"
+  annual_factor: 82.9
+  monthly_factors: [0.897, 0.961, 1.46, 11.8, 56.7, 87.7, 97.8, 94.9, 73.6, 59, 7.4, 1.03]
+
+- zone_id: "HR"
+  full_name: "Croatia"
+  annual_factor: 22.36
+  monthly_factors: [1.32, 1.31, 1.08, 1.12, 1.37, 2.12, 2.74, 3.3, 3.2, 2.69, 2.18, 1.33]
+
+- zone_id: "HU"
+  full_name: "Hungary"
+  annual_factor: 2.23
+  monthly_factors: [1.66, 1.64, 1.3, 1.27, 1.41, 1.73, 2, 2.58, 3.55, 3.37, 2.88, 1.71]
+
+- zone_id: "IE"
+  full_name: "Ireland"
+  annual_factor: 1.18
+  monthly_factors: [0.377, 0.442, 0.478, 0.628, 0.822, 1.31, 2.13, 2.67, 3.19, 1.08, 0.493, 0.408]
+
+- zone_id: "IT_CALABRIA"
+  full_name: "Italy - Calabria"
+  annual_factor: 82.078
+  monthly_factors:
+      [0.555, 0.68, 0.852, 1.741, 26.192, 92.868, 100, 99.632, 92.277, 8.983, 1.351, 0.687]
+
+- zone_id: "IT_CNORTH"
+  full_name: "Italy - Centre North"
+  annual_factor: 33.048
+  monthly_factors:
+      [0.818, 0.798, 0.789, 1.122, 2.087, 25.171, 54.312, 55.093, 17.664, 2.902, 0.834, 0.697]
+
+- zone_id: "IT_CSOUTH"
+  full_name: "Italy - Centre South"
+  annual_factor: 57.062
+  monthly_factors:
+      [0.684, 0.824, 0.768, 1.203, 22.503, 55.412, 85.196, 86.709, 62.243, 3.036, 0.827, 0.608]
+
+- zone_id: "IT_NORTH"
+  full_name: "Italy - North"
+  annual_factor: 9.911
+  monthly_factors:
+      [0.991, 1.071, 0.809, 0.794, 0.969, 9.227, 13.705, 15.56, 6.022, 1.335, 0.572, 0.708]
+
+- zone_id: "IT_SARDINIA"
+  full_name: "Italy - Sardinia"
+  annual_factor: 86.299
+  monthly_factors:
+      [0.899, 0.873, 1.287, 3.083, 82.401, 88.353, 100, 100, 74.704, 8.764, 1.583, 0.844]
+
+- zone_id: "IT_SICILY"
+  full_name: "Italy - Sicily"
+  annual_factor: 93.958
+  monthly_factors: [0.989, 0.996, 2.341, 8.383, 89.21, 100, 100, 100, 100, 65.314, 46.503, 5.059]
+
+- zone_id: "IT_SOUTH"
+  full_name: "Italy - South"
+  annual_factor: 83.947
+  monthly_factors:
+      [1.349, 1.76, 3.717, 10.844, 34.959, 96.617, 99.051, 98.397, 75.144, 50.922, 11.582, 2.101]
+
+- zone_id: "LT"
+  full_name: "Lithuania"
+  annual_factor: 2.27
+  monthly_factors: [1.26, 1.07, 0.956, 1.14, 1.45, 1.97, 2.51, 3.54, 4.88, 4.15, 2.41, 1.81]
+
+- zone_id: "LU"
+  full_name: "Luxembourg"
+  annual_factor: 1.4
+  monthly_factors: [0.614, 0.72, 0.679, 0.886, 0.968, 1.05, 1.38, 2.26, 3.1, 2.83, 1.36, 0.95]
+
+- zone_id: "LV"
+  full_name: "Latvia"
+  annual_factor: 1.91
+  monthly_factors: [1.31, 1.29, 1.01, 0.955, 1.19, 1.7, 2.19, 2.93, 3.75, 2.9, 1.92, 1.63]
+
+- zone_id: "MD"
+  full_name: "Moldova"
+  annual_factor: 3.08
+  monthly_factors: [2.64, 2.31, 2.07, 2.37, 2.72, 2.99, 2.94, 3.28, 4.03, 4.04, 3.75, 2.89]
+
+- zone_id: "ME"
+  full_name: "Montenegro"
+  annual_factor: 1.45
+  monthly_factors: [0.916, 0.927, 0.742, 0.672, 0.852, 1.22, 1.58, 1.73, 1.64, 1.73, 1.43, 0.895]
+
+- zone_id: "MT"
+  full_name: "Malta"
+  annual_factor: 7.42
+  monthly_factors: [0.944, 1.38, 3.01, 9.21, 7.29, 7.74, 6.94, 7.08, 11.8, 11.2, 1.67, 1.01]
+
+- zone_id: "MK"
+  full_name: "North Macedonia"
+  annual_factor: 69.6
+  monthly_factors: [1.11, 1.06, 0.915, 1.24, 3.79, 94, 95.1, 94.7, 91.4, 4.36, 1.75, 0.996]
+
+- zone_id: "NIE"
+  full_name: "Northern Ireland"
+  annual_factor: 0.833
+  monthly_factors:
+      [0.404, 0.452, 0.454, 0.556, 0.662, 0.975, 1.371, 1.652, 1.71, 0.768, 0.532, 0.438]
+
+- zone_id: "NL"
+  full_name: "Netherlands"
+  annual_factor: 1.94
+  monthly_factors: [0.624, 0.723, 0.704, 0.94, 1.07, 1.24, 1.93, 3.47, 4.51, 4.37, 1.32, 0.897]
+
+- zone_id: "NO1"
+  full_name: "Norway - Southeast"
+  annual_factor: 1.006
+  monthly_factors:
+      [1.065, 1.477, 1.057, 0.609, 0.728, 0.877, 1.096, 1.428, 1.375, 0.981, 0.782, 0.809]
+
+- zone_id: "NO2"
+  full_name: "Norway - Southwest"
+  annual_factor: 0.569
+  monthly_factors:
+      [0.408, 0.525, 0.422, 0.358, 0.464, 0.695, 0.939, 1.058, 0.679, 0.471, 0.373, 0.36]
+
+- zone_id: "NO3"
+  full_name: "Norway - Central"
+  annual_factor: 0.428
+  monthly_factors:
+      [0.341, 0.37, 0.294, 0.264, 0.295, 0.463, 0.716, 0.783, 0.458, 0.355, 0.347, 0.288]
+
+- zone_id: "NO4"
+  full_name: "Norway - North"
+  annual_factor: 1.072
+  monthly_factors:
+      [1.694, 2.252, 1.822, 0.796, 0.438, 0.594, 0.918, 1.115, 0.905, 0.698, 0.814, 1.088]
+
+- zone_id: "NO5"
+  full_name: "Norway - West"
+  annual_factor: 0.307
+  monthly_factors:
+      [0.141, 0.166, 0.162, 0.244, 0.4, 0.531, 0.709, 0.553, 0.273, 0.186, 0.159, 0.136]
+
+- zone_id: "PL"
+  full_name: "Poland"
+  annual_factor: 3.15
+  monthly_factors: [2.42, 1.97, 1.51, 1.51, 1.79, 2.28, 2.78, 3.43, 5.22, 5.96, 5.68, 3.39]
+
+- zone_id: "PT"
+  full_name: "Portugal"
+  annual_factor: 42.5
+  monthly_factors: [1.12, 1.57, 2.09, 4.1, 24.9, 37.3, 62.8, 66.1, 51.6, 33.7, 2.32, 1.53]
+
+- zone_id: "RO"
+  full_name: "Romania"
+  annual_factor: 4.46
+  monthly_factors: [1.72, 1.69, 1.39, 1.55, 5.51, 6.69, 5.67, 5.88, 4.86, 3.62, 3.02, 1.83]
+
+- zone_id: "RS"
+  full_name: "Serbia"
+  annual_factor: 5
+  monthly_factors: [1.61, 1.59, 1.27, 1.27, 1.58, 7.51, 5.98, 6.91, 8.48, 3.47, 2.8, 1.65]
+
+- zone_id: "RU"
+  full_name: "Russia"
+  annual_factor: 7.4
+  monthly_factors: [4.77, 5.57, 4.2, 2.86, 5.64, 8.84, 11.6, 12.5, 8.01, 5.18, 4.61, 4.43]
+
+- zone_id: "RU_KGD"
+  full_name: "Russia - Kaliningrad"
+  annual_factor: 1.964
+  monthly_factors:
+      [0.896, 0.822, 0.79, 0.994, 1.335, 1.799, 2.566, 3.628, 4.72, 3.044, 1.541, 1.243]
+
+- zone_id: "SE1"
+  full_name: "Sweden - South"
+  annual_factor: 1.199
+  monthly_factors:
+      [1.718, 2.299, 2.034, 0.942, 0.547, 0.75, 0.842, 0.957, 1.021, 1.006, 1.117, 1.277]
+
+- zone_id: "SE2"
+  full_name: "Sweden - North central"
+  annual_factor: 1.271
+  monthly_factors: [2.96, 3.42, 2.77, 1.28, 0.71, 0.95, 1.11, 1.25, 1.39, 1.29, 2.01, 2.96]
+
+- zone_id: "SE3"
+  full_name: "Sweden - South central"
+  annual_factor: 2.929
+  monthly_factors:
+      [1.864, 1.94, 1.644, 1.742, 1.907, 2.296, 2.946, 4.253, 5.303, 4.376, 2.671, 2.141]
+
+- zone_id: "SE4"
+  full_name: "Sweden - North"
+  annual_factor: 2.708
+  monthly_factors:
+      [1.42, 1.41, 1.206, 1.334, 1.504, 2.138, 3.059, 5.107, 4.211, 3.596, 2.048, 1.669]
+
+- zone_id: "SI"
+  full_name: "Slovenia"
+  annual_factor: 1.97
+  monthly_factors: [1.49, 1.47, 1.18, 1.15, 1.31, 1.35, 2.16, 2.95, 3.21, 2.99, 2.53, 1.52]
+
+- zone_id: "SK"
+  full_name: "Slovakia"
+  annual_factor: 2.13
+  monthly_factors: [1.69, 1.65, 1.3, 1.27, 1.42, 1.74, 2.02, 2.59, 3.58, 3.45, 2.99, 1.78]
+
+- zone_id: "TR"
+  full_name: "Turkey"
+  annual_factor: 66.6
+  monthly_factors: [2.18, 2.77, 4.34, 21.8, 61.7, 76.8, 76.5, 68.6, 52.1, 32.8, 21.3, 2.8]
+
+- zone_id: "UA"
+  full_name: "Ukraine"
+  annual_factor: 13.2
+  monthly_factors: [3.75, 3.24, 2.74, 3.42, 15.1, 16.4, 14.8, 17.3, 16.1, 7.88, 6.67, 4.51]
+
+- zone_id: "XK"
+  full_name: "Kosovo"
+  annual_factor: 9.48
+  monthly_factors: [1.05, 1.04, 0.858, 0.948, 1.64, 14.6, 11.3, 10.1, 11, 2.56, 1.67, 1.01]

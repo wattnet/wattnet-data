@@ -16,10 +16,10 @@ This repository contains data files for the wattnet, including zone definitions,
 
 ## Repository structure
 
--   `zones/`: Contains zone definition files in YAML format.
--   `factors/`: Contains environmental factor data files in YAML format.
--   `geojson/`: Contains GeoJSON files representing the geographical boundaries of individual zones.
-    -   `fullmap/`: Contains a unified GeoJSON file with all zones.
+- `zones/`: Contains zone definition files in YAML format.
+- `factors/`: Contains environmental factor data files in YAML format.
+- `geojson/`: Contains GeoJSON files representing the geographical boundaries of individual zones.
+    - `fullmap/`: Contains a unified GeoJSON file with all zones.
 
 ## Funding and acknowledgments
 
@@ -30,4 +30,4 @@ This work is funded by the European Union’s Horizon Europe research and innova
   <img src="https://github.com/wattnet/.github/raw/main/images/GreenDIGIT%20logo%20color%20horizontal2.png" alt="GreenDIGIT Logo" width="230"/>
 </div>
 
-##### © 2025 Spanish National Research Council (CSIC). All rights reserved.
+##### © 2026 Spanish National Research Council (CSIC). All rights reserved.
