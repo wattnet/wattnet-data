@@ -17,7 +17,8 @@ This repository contains data files for the wattnet, including zone definitions,
 ## Repository structure
 
 - `zones/`: Contains zone definition files in YAML format.
-- `factors/`: Contains environmental factor data files in YAML format.
+- `footprint/`: Contains files with the factors for footprint calculations.
+- `impact/`: Contains files with the factors for impact calculations.
 - `geojson/`: Contains GeoJSON files representing the geographical boundaries of individual zones.
     - `fullmap/`: Contains a unified GeoJSON file with all zones.
 
