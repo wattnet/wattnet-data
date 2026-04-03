@@ -1,0 +1,14 @@
+# ENTSO-E Zone Structure:
+#   - zone_id: Zone area display name as defined by ENTSO-E
+#     full_name: Full descriptive name of the zone
+#     eic_code: Energy Identification Code (EIC) of the zone
+#     country_code: ISO 3166-1 alpha-2 country code which the zone belongs
+#     country_name: Name of the country to which the zone belongs
+#     provider: [entsoe | elexon | ...] - The data provider for this zone
+
+- zone_id: "TR"
+  full_name: "Turkey"
+  eic_code: "10YTR-TEIAS----W"
+  country_code: "TUR"
+  country_name: "Turkey"
+  provider: "epias"

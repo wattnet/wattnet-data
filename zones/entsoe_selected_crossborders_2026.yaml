@@ -15,7 +15,7 @@
   neighbours: ["FR", "GB", "DE", "LU", "NL"]
 
 - zone_id: "BG"
-  neighbours: ["GR", "MK", "RO", "RS"]
+  neighbours: ["GR", "MK", "RO", "RS", "TR"]
 
 - zone_id: "CH"
   neighbours: ["AT", "DE", "FR", "IT_NORTH"]
@@ -51,10 +51,10 @@
   neighbours: ["BE", "DK1", "FR", "IE", "NIE", "NL", "NO2"]
 
 - zone_id: "GE"
-  neighbours: []
+  neighbours: ["TR"]
 
 - zone_id: "GR"
-  neighbours: ["BG", "IT_SOUTH", "MK"]
+  neighbours: ["BG", "IT_SOUTH", "MK", "TR"]
 
 - zone_id: "HR"
   neighbours: ["BA", "HU", "RS", "SI"]
@@ -154,6 +154,9 @@
 
 - zone_id: "SK"
   neighbours: ["CZ", "HU", "PL"]
+
+- zone_id: "TR"
+  neighbours: ["BG", "GE", "GR"]
 
 - zone_id: "XK"
   neighbours: ["ME", "MK", "RS"]

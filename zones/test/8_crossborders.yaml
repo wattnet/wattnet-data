@@ -1,0 +1,18 @@
+# ENTSO-E cross-border zones
+# - zone_id: Zone area display name as defined by ENTSO-E
+#   neighbours: List of zone_id of neighbouring zones
+
+# Note: not represent geographical neighbours, but rather
+# the zones that are connected by cross-border lines (i.e. imports)
+
+- zone_id: "TR"
+  neighbours: ["BG", "GE", "GR"]
+
+- zone_id: "BG"
+  neighbours: ["GR", "TR"]
+
+- zone_id: "GE"
+  neighbours: ["TR"]
+
+- zone_id: "GR"
+  neighbours: ["BG", "TR"]

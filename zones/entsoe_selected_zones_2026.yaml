@@ -356,6 +356,13 @@
   country_name: "Slovakia"
   provider: "entsoe"
 
+- zone_id: "TR"
+  full_name: "Turkey"
+  eic_code: "10YTR-TEIAS----W"
+  country_code: "TUR"
+  country_name: "Turkey"
+  provider: "epias"
+
 - zone_id: "XK"
   full_name: "Kosovo"
   eic_code: "10Y1001C--00100H"
