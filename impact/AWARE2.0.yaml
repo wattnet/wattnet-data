@@ -97,7 +97,7 @@
   monthly_factors: [0.489, 0.567, 0.557, 0.747, 0.927, 1.11, 1.77, 2.82, 3.42, 2.86, 1.29, 0.74]
 
 - zone_id: "GB"
-- full_name: "Great Britain"
+  full_name: "Great Britain"
   annual_factor: 1.514
   monthly_factors:
       [0.436, 0.527, 0.56, 0.738, 0.956, 1.445, 2.222, 3.251, 4.027, 2.221, 0.778, 0.517]
