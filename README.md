@@ -14,7 +14,7 @@
 
 This repository contains data files for the wattnet, including zone definitions, crossborder data, environmental factors, and GeoJSON of zones.
 
-## Repository structure
+## Repository Structure
 
 - `zones/`: Contains zone definition files in YAML format.
 - `footprint/`: Contains files with the factors for footprint calculations.
@@ -22,7 +22,13 @@ This repository contains data files for the wattnet, including zone definitions,
 - `geojson/`: Contains GeoJSON files representing the geographical boundaries of individual zones.
     - `fullmap/`: Contains a unified GeoJSON file with all zones.
 
-## Funding and acknowledgments
+## License
+
+This repository is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+See the [LICENSE](LICENSE) file for more details.
+
+## Funding and Acknowledgments
 
 This work is funded by the European Union’s Horizon Europe research and innovation programme through the **[GreenDIGIT](https://greendigit-project.eu/)** project, under grant agreement **[101131207](https://cordis.europa.eu/project/id/101131207)**.
 
