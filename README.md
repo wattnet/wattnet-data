@@ -9,6 +9,7 @@
          width="300" />
   </picture>
 </div>
+
 # Data Repository
  
 This repository contains data files for wattnet, including zone definitions, crossborder data, environmental factors, and GeoJSON of zones.
@@ -26,10 +27,12 @@ It centralizes shared data constants to avoid duplication across projects.
  
 The following diagrams show how this repository's data is consumed across the wattnet modules:
  
-<div align="left">
-  <img src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_zone_data.png?raw=true" alt="Zone data dependencies" width="48%"/>
-  <img src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_environmental_data.png?raw=true" alt="Environmental data dependencies" width="48%"/>
-</div>
+<p align="center">
+  <img src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_zone_data.png?raw=true" 
+       height="300"/>
+  <img src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_environmental_data.png?raw=true" 
+       height="300"/>
+</p>
  
 ## Repository Structure
  
