@@ -30,11 +30,11 @@ The following diagrams show how this repository's data is consumed across the wa
 <div style="display: flex; width: 100%;">
   <img
     src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_zone_data.png?raw=true"
-    style="flex: 1; width: 0; height: 335px; object-fit: contain;"
+    style="flex: 1; width: 0; height: 340px; object-fit: contain;"
   />
   <img
     src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_environmental_data.png?raw=true"
-    style="flex: 1; width: 0; height: 335px; object-fit: contain;"
+    style="flex: 1; width: 0; height: 340px; object-fit: contain;"
   />
 </div>
  
