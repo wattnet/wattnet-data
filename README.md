@@ -27,12 +27,16 @@ It centralizes shared data constants to avoid duplication across projects.
  
 The following diagrams show how this repository's data is consumed across the wattnet modules:
  
-<p align="center">
-  <img src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_zone_data.png?raw=true" 
-       height="300"/>
-  <img src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_environmental_data.png?raw=true" 
-       height="300"/>
-</p>
+<div style="display: flex; width: 100%;">
+  <img
+    src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_zone_data.png?raw=true"
+    style="flex: 1; width: 0; height: 320px; object-fit: contain;"
+  />
+  <img
+    src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_environmental_data.png?raw=true"
+    style="flex: 1; width: 0; height: 320px; object-fit: contain;"
+  />
+</div>
  
 ## Repository Structure
  
