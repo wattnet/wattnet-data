@@ -177,7 +177,7 @@
 - zone_id: "IT_CALABRIA"
   full_name: "Italy - Calabria"
   eic_code: "10Y1001C--00096J"
-  country_code: "IT"
+  country_code: "ITA"
   country_name: "Italy"
   provider: "entsoe"
 
