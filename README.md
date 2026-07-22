@@ -11,22 +11,22 @@
 </div>
 
 # Data Repository
- 
+
 This repository contains data files for wattnet, including zone definitions, crossborder data, environmental factors, and GeoJSON of zones.
- 
+
 This is used as a **shared Git submodule** included in
 [`wattnet-core`](https://github.com/wattnet/wattnet-core),
 [`wattnet-forecast`](https://github.com/wattnet/wattnet-forecast),
 [`wattnet-api`](https://github.com/wattnet/wattnet-api),
 [`wattnet-dashboard`](https://github.com/wattnet/wattnet-dashboard) and
 [`wattnet-tools`](https://github.com/wattnet/wattnet-tools).
- 
+
 It centralizes shared data constants to avoid duplication across projects.
- 
+
 ## Architecture
- 
+
 The following diagrams show how this repository's data is consumed across the wattnet modules:
- 
+
 <div style="display: flex; width: 100%;">
   <img
     src="https://github.com/wattnet/wattnet-architecture/blob/main/diagrams/png/structurizr-1-wattnet_zone_data.png?raw=true"
@@ -51,13 +51,12 @@ This repository is licensed under the [Creative Commons Attribution 4.0 Internat
 See the [LICENSE](LICENSE) file for more details.
  
 ## Funding and Acknowledgments
- 
-This work is funded by the European Union's Horizon Europe research and innovation programme through the **[GreenDIGIT](https://greendigit-project.eu/)** project, under grant agreement **[101131207](https://cordis.europa.eu/project/id/101131207)**.
- 
-<div align="left">
-  <img src="https://github.com/wattnet/.github/raw/main/images/EN_FundedbytheEU_RGB_POS.png" alt="EU Funded Logo" width="260"/>
-  <img src="https://github.com/wattnet/.github/raw/main/images/GreenDIGIT%20logo%20color%20horizontal2.png" alt="GreenDIGIT Logo" width="230"/>
-</div>
 
+This work was developed within the [GreenDIGIT](https://greendigit-project.eu/) project, funded by the European Union's Horizon Europe research and innovation programme under grant agreement No. [101131207](https://cordis.europa.eu/project/id/101131207), and by the Swiss State Secretariat for Education, Research and Innovation (SERI).
+
+<img src="https://github.com/wattnet/.github/raw/main/images/GreenDIGIT logo color horizontal2.png" alt="GreenDIGIT Logo" width="230" align="right"/>
+<img src="https://github.com/wattnet/.github/raw/main/images/EN_FundedbytheEU_RGB_POS.png" alt="EU Funded Logo" width="260" align="left"/>
+<img src="https://github.com/wattnet/.github/raw/main/images/Flag_of_Switzerland.svg" alt="Swiss State Secretariat for Education, Research and Innovation (SERI)" height="50" align="left"/>
+<br clear="all"/>
 
 ##### © 2026 Spanish National Research Council (CSIC). All rights reserved.
