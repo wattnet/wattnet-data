@@ -22,12 +22,10 @@ This repository contains data files for Wattnet, including zone definitions, cro
 
 This is used as a **shared Git submodule** included in
 [`wattnet-core`](https://github.com/wattnet/wattnet-core),
-[`wattnet-forecast`](https://github.com/wattnet/wattnet-forecast),
-[`wattnet-api`](https://github.com/wattnet/wattnet-api),
-[`wattnet-dashboard`](https://github.com/wattnet/wattnet-dashboard) and
-[`wattnet-tools`](https://github.com/wattnet/wattnet-tools).
+[`wattnet-forecast`](https://github.com/wattnet/wattnet-forecast) and
+[`wattnet-api`](https://github.com/wattnet/wattnet-api).
 
-It centralizes shared data constants to avoid duplication across projects.
+It centralizes shared data constants to avoid duplication across projects. [`wattnet-dashboard`](https://github.com/wattnet/wattnet-dashboard) and [`wattnet-tools`](https://github.com/wattnet/wattnet-tools) do not use the submodule: they keep their own copies of the files they need, so those copies are not updated when this repository changes.
 
 ## Architecture
 
