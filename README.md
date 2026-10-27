@@ -12,7 +12,13 @@
 
 # Data Repository
 
-This repository contains data files for wattnet, including zone definitions, crossborder data, environmental factors, and GeoJSON of zones.
+| Category   | Links                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stack      | [![YAML](https://img.shields.io/badge/YAML-475569?logo=yaml&logoColor=white)](https://yaml.org/) [![GeoJSON](https://img.shields.io/badge/GeoJSON-475569)](https://geojson.org/)                                                                                                                                                                                                                                                         |
+| Repository | [![Contributors](https://img.shields.io/github/contributors/wattnet/wattnet-data?label=Contributors&color=1E293B&logo=github&logoColor=white&labelColor=1E293B)](https://github.com/wattnet/wattnet-data/graphs/contributors) [![Stars](https://img.shields.io/github/stars/wattnet/wattnet-data?style=flat&label=Stars&color=1E293B&logo=github&logoColor=white&labelColor=1E293B)](https://github.com/wattnet/wattnet-data/stargazers) |
+| License    | [![License](https://img.shields.io/github/license/wattnet/wattnet-data?label=License&color=64748B&logo=opensourceinitiative&logoColor=white&labelColor=1E293B)](https://github.com/wattnet/wattnet-data/blob/main/LICENSE)                                                                                                                                                                                                               |
+
+This repository contains data files for Wattnet, including zone definitions, crossborder data, environmental factors, and GeoJSON of zones.
 
 This is used as a **shared Git submodule** included in
 [`wattnet-core`](https://github.com/wattnet/wattnet-core),
@@ -25,7 +31,7 @@ It centralizes shared data constants to avoid duplication across projects.
 
 ## Architecture
 
-The following diagrams show how this repository's data is consumed across the wattnet modules:
+The following diagrams show how this repository's data is consumed across the Wattnet modules:
 
 <div style="display: flex; width: 100%;">
   <img
@@ -37,19 +43,20 @@ The following diagrams show how this repository's data is consumed across the wa
     style="flex: 1; width: 0; height: 340px; object-fit: contain;"
   />
 </div>
- 
+
 ## Repository Structure
- 
+
 - `zones/`: Contains zone definition files in YAML format.
 - `footprint/`: Contains files with the factors for footprint calculations.
 - `impact/`: Contains files with the factors for impact calculations.
 - `geojson/`: Contains GeoJSON files representing the geographical boundaries of individual zones.
   - `fullmap/`: Contains a unified GeoJSON file with all zones.
+
 ## License
- 
+
 This repository is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 See the [LICENSE](LICENSE) file for more details.
- 
+
 ## Funding and Acknowledgments
 
 This work was developed within the [GreenDIGIT](https://greendigit-project.eu/) project, funded by the European Union's Horizon Europe research and innovation programme under grant agreement No. [101131207](https://cordis.europa.eu/project/id/101131207), and by the Swiss State Secretariat for Education, Research and Innovation (SERI).
